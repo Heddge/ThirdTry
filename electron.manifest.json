@@ -1,0 +1,34 @@
+{
+  "executable": "MyElectronApp",
+  "splashscreen": {
+    "imageFile": ""
+  },
+  "name": "MyElectronApp",
+  "author": "YourName",
+  "singleInstance": false,
+  "environment": "Development",
+  "build": {
+    "appId": "com.yourcompany.myelectronapp",
+    "productName": "MyElectronApp",
+    "copyright": "Copyright © 2024",
+    "buildVersion": "1.0.0",
+    "compression": "maximum",
+    "directories": {
+      "output": "bin/Desktop"
+    },
+    "extraResources": [
+      {
+        "from": "./bin",
+        "to": "bin",
+        "filter": [ "**/*" ]
+      }
+    ],
+    "files": [
+      "**/*"
+    ],
+    "electronVersion": "23.0.0",
+    "electronDownload": {
+      "mirror": "https://github.com/castlecraft/electron-releases/"
+    }
+  }
+}

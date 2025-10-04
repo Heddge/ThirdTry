@@ -1,0 +1,115 @@
+# Общие системные файлы
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Файлы редактора/IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Файлы пользовательские
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Результаты сборки
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+# Файлы .NET
+*.db
+*.dbmdl
+*.dbproj
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+
+# NuGet
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+nuget.exe
+
+# Node.js и npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+# Electron
+dist/
+build/
+app-builds/
+*.app
+*.dmg
+*.deb
+*.rpm
+*.snap
+
+# Electron.NET специфичные
+obj/Host/
+obj/Desktop/
+bin/Desktop/
+
+# Логи
+*.log
+logs/
+electron-debug.log
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Файлы настроек окружения
+appsettings.Development.json
+appsettings.Production.json
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Файлы сертификатов
+*.cer
+*.crt
+*.key
+*.pfx
+
+# Файлы резервных копий
+*.backup
+*.bak
+
+# Файлы тестов
+TestResults/
+*.coverage
+*.coveragexml
+
+# Файлы пакетирования
+*.msi
+*.msm
+*.msp
+
+# Файлы Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Файлы Azure
+.azure/
+
+# Файлы Rider
+*.sln.iml
+
+# Файлы манифеста (если генерируются автоматически)
+electron.manifest.json.user
